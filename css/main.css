@@ -345,10 +345,12 @@ body {
 }
 
 .row-inside-content-1, .row-inside-content-2, .row-inside-content-3, .row-inside-content-4, .row-inside-content-5, .row-inside-content-6 {
+  width: 435px;
+  height: 75px;
   border-bottom: 1px solid black;
 }
 .row-inside-content-1:hover, .row-inside-content-2:hover, .row-inside-content-3:hover, .row-inside-content-4:hover, .row-inside-content-5:hover, .row-inside-content-6:hover {
-  border-bottom: 6px solid;
+  border-bottom: 8px solid black;
 }
 
 .row-head-class a {
