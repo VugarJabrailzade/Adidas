@@ -1,0 +1,486 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.adidas_header {
+  height: 80px;
+  background-color: white;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+}
+
+.adidas_icon {
+  width: 60px;
+  height: 38px;
+}
+
+.header_middle {
+  margin-top: 20px;
+}
+.header_middle a {
+  font-family: "Inter", sans-serif;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 32px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #e3e3e3;
+}
+.search ::placeholder {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+.search__input {
+  height: 20px;
+  flex-grow: 1;
+  background-color: transparent;
+  outline: none;
+  padding-right: 5px;
+}
+.search__icon > i {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header_left {
+  margin-top: 20px;
+}
+
+.icons i {
+  font-size: 18px;
+}
+
+.icon {
+  position: relative;
+  display: flex;
+}
+
+.user_notification_badge {
+  display: flex;
+  margin-top: -28px;
+  margin-right: -17px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background-color: yellow;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.start_container {
+  box-sizing: border-box;
+  padding: 0;
+}
+.start_container .container_image {
+  width: 100%;
+  height: 750px;
+  background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enUS/Images/ub10--mh-lg-m-d_tcm221-1056615.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.words h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  width: 300px;
+  font-size: 40px;
+  color: white;
+  line-height: 45px;
+}
+.words span {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  width: 450px;
+  color: white;
+}
+
+.content_button a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.content_button a > i {
+  margin-left: 15px;
+}
+
+.custom_button {
+  width: 157px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: white;
+  box-shadow: 3px 2px black;
+}
+.custom_button a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.custom_button a:hover {
+  color: #c9cacc;
+}
+.custom_button a > i {
+  margin-left: 15px;
+}
+
+.custom_button_women {
+  width: 180px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: white;
+  box-shadow: 3px 2px black;
+}
+.custom_button_women a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.custom_button_women a:hover {
+  color: #c9cacc;
+}
+.custom_button_women a > i {
+  margin-left: 15px;
+}
+
+.container_yeezy {
+  box-sizing: border-box;
+  background-color: rgb(237, 237, 227);
+}
+
+.word_yeezy {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  font-weight: 700;
+}
+
+.container_yeezy p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.yeezy_links a {
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.yeezy_links a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.test {
+  width: 100%;
+  height: 500px;
+}
+
+.custom_img_container {
+  width: 350px;
+  background-color: #ebeff1;
+}
+.custom_img_container img {
+  width: 160px;
+  height: 150px;
+  transform: scale(1.2);
+}
+.custom_img_container a {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.custom_img_container a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.buttons a {
+  font-size: 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+}
+.buttons i {
+  font-size: 30px;
+}
+
+.carousel_button {
+  color: #c9cacc;
+}
+
+.carousel_button:hover {
+  color: black;
+}
+
+.view_button {
+  font-size: 18px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+.view_button a:hover {
+  height: 25px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.chevron_button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  font-size: 18px;
+}
+.chevron_button i {
+  font-size: 18px;
+}
+.chevron_button a:hover {
+  background-color: black;
+  color: white;
+}
+
+.right .view_button a {
+  font-size: 18px;
+}
+
+.card {
+  border: 1px solid transparent;
+}
+.card .product_price_card {
+  width: 38px;
+  height: 23px;
+  background-color: white;
+  bottom: 0;
+  transition: 0.1s;
+}
+.card:hover {
+  border-color: black;
+}
+.card:hover .product_price_card {
+  bottom: 5px;
+}
+
+.content_head {
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 100;
+}
+
+.content_head_small {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.card_long_content {
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.card_long a {
+  margin-top: 18px;
+  width: 115px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+.card_long a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.card_head h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.card_image img {
+  width: 370px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.image-bottom {
+  background-color: white;
+  margin-top: -20px;
+  margin-right: 0px;
+}
+
+.image-bottom-head {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.row-card-head h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.row-inside-content-1, .row-inside-content-2, .row-inside-content-3, .row-inside-content-4, .row-inside-content-5, .row-inside-content-6 {
+  border-bottom: 1px solid black;
+}
+.row-inside-content-1:hover, .row-inside-content-2:hover, .row-inside-content-3:hover, .row-inside-content-4:hover, .row-inside-content-5:hover, .row-inside-content-6:hover {
+  border-bottom: 6px solid;
+}
+
+.row-head-class a {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.custom-stories {
+  background-color: #f5f5e5;
+}
+
+.bottom-stories h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.bottom-stories-second {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 85px;
+}
+
+.custom-info {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-top: 20px;
+  letter-spacing: 0.9px;
+}
+
+.last-content {
+  background-color: #EDE734;
+}
+.last-content h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.content-button {
+  background-color: black;
+  width: 220px;
+  height: 55px;
+  box-shadow: 3px 2px white;
+}
+.content-button i {
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+  align-items: center;
+  margin-top: 5px;
+}
+.content-button a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.content-button:hover a {
+  color: #abadb1;
+}
+.content-button:hover i {
+  color: #abadb1;
+}
+
+.footer h4 {
+  font-size: 18px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.head-content {
+  margin-top: 15px;
+}
+.head-content li {
+  margin-top: 4px;
+}
+.head-content li a:hover {
+  border-bottom: 1px solid black;
+}
+
+.custom-footer-icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.head-content-icons {
+  gap: 8px;
+}
+
+.ending-footer-black {
+  margin-top: 50px;
+  background-color: #282C31;
+}
+
+.footer-last-content li {
+  margin-top: 30px;
+  color: #abadb1;
+  font-size: 14px;
+}
+
+.custom-fix-content {
+  border-right: 1px solid white;
+  padding-right: 15px;
+}
+
+.custom-footer-check-icon {
+  width: 20px;
+  height: 15px;
+  display: flex;
+  border-radius: 40%;
+  align-items: end;
+  color: white;
+  background-color: rgba(41, 41, 229, 0.682);
+}
+
+.footer-copyright {
+  color: #abadb1;
+  font-size: 14px;
+}
